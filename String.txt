@@ -1,0 +1,19 @@
+>>> s='neetu'
+>>> s.capitalize()#capitalize the frist letter
+'Neetu'
+>>> s.upper()#covert in uppercase
+'NEETU'
+>>> s.lower()#convert in lowercase
+'neetu'
+>>> s.count('e')#count how many times 'e' has occured 
+2
+>>> s.find('t')#find index value of 't'
+3
+>>> s.isalpha()#is it alphabetic value
+True
+>>> s.isascii()#is it ascii value
+True
+>>> s.index('e')#return index value of 'e'
+1
+>>> s.islower()#cofirm that it is in lowercase
+True

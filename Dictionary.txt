@@ -1,0 +1,19 @@
+
+>>> a={'neetu':10,'bipin':20,'sachin':30,'jyoti':40}
+>>> a
+{'neetu': 10, 'bipin': 20, 'sachin': 30, 'jyoti': 40}
+>>> a.keys()
+dict_keys(['neetu', 'bipin', 'sachin', 'jyoti'])
+>>> a.values()
+dict_values([10, 20, 30, 40])
+>>> a['neetu'] #return values of index
+10
+>>> a['neetu']=50 #we can change the value
+>>> a
+{'neetu': 50, 'bipin': 20, 'sachin': 30, 'jyoti': 40}
+>>> a.pop('neetu')#removes the values of given key
+50
+>>> a
+{'bipin': 20, 'sachin': 30, 'jyoti': 40}
+>>> a.items()#provide the items of the dictionary
+dict_items([('bipin', 20), ('sachin', 30), ('jyoti', 40)])
